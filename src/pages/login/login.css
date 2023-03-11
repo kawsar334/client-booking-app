@@ -1,0 +1,41 @@
+.login{
+    flex: 5;
+}
+.loginWrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginForm{
+    width: 60%;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #003580;
+    color: white;
+    gap: 10px;
+    border-radius: 5px;
+
+
+}
+.loginForm>input{
+    padding: 5px 20px;
+    border-radius: 5px;
+    outline: none;
+}
+.loginForm>button{
+    background-color: #fff;
+    color: #003580;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.loginHeader{
+    font-size: 25px;
+    
+}

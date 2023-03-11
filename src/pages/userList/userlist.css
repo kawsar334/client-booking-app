@@ -1,0 +1,44 @@
+.userList{
+    flex: 4;
+    text-align: center;
+    margin: 10px ;
+    margin-left: 20px;
+    overflow-x: hidden;
+
+}
+
+.addUser{
+   
+    transform: translateX(60vw);
+    display: block;
+    margin-right: 20px ;
+    padding: 5px 20px;
+    background-color: cadetblue;
+    width: max-content;
+    text-align: right;
+    border-radius: 5px ;
+    cursor: pointer;
+    margin: 10px 0px;
+    color: #ffff;
+    transition: all 1s ease;
+}
+.userTrasaction{
+    color: gray;
+}
+.userIgm{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:778px ) {
+    .userList{
+        /* width: max-content; */
+        overflow-x: auto;
+
+    }
+    
+}
